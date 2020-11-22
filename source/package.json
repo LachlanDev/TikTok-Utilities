@@ -1,0 +1,17 @@
+{
+  "name": "tiktok-stats",
+  "version": "1.0.0",
+  "description": "TikTok Stats Discord BOT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PapaSnags",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "enmap": "^5.8.2",
+    "tiktok-scraper": "^1.4.4",
+    "tiktok-search": "^2.0.3"
+  }
+}
