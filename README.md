@@ -20,7 +20,8 @@ An Open Source Discord BOT that gets in depth information about users on TikTok.
 * Help - **Usage:** t!help
 
 ## Changelog
-* **1.0 (Current)** - Initial Release - 22nd November 2020
+* **1.1 (Current)** - Added Hashtag lookup - 26th November 2020
+* **1.0** - Initial Release - 22nd November 2020
 
 ## Preview
 ### Profile Lookup 
