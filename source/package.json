@@ -9,9 +9,10 @@
   "author": "PapaSnags",
   "license": "MIT",
   "dependencies": {
+    "discord-paginationembed": "^2.1.0",
     "discord.js": "^12.4.1",
     "enmap": "^5.8.2",
-    "tiktok-scraper": "^1.4.4",
+    "tiktok-scraper": "^1.4.9",
     "tiktok-search": "^2.0.3"
   }
 }
