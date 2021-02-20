@@ -22,7 +22,7 @@ An Open Source Discord BOT that gets in depth information about users on TikTok.
 * Help - **Usage:** t!help
 
 ## Changelog
-* **1.2 (Current)** - Added Trending + Feed Commands - 20th Febuary 2021
+* **1.2 (Current)** - Added Trending + Feed Commands - 20th February 2021
 * **1.1** - Added Hashtag lookup - 26th November 2020
 * **1.0** - Initial Release - 22nd November 2020
 
