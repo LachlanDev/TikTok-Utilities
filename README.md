@@ -16,11 +16,14 @@ An Open Source Discord BOT that gets in depth information about users on TikTok.
 
 ## Commands 
 * Profile Lookup - **Usage:** t!profile TikTok
+* Feed Lookup - **Usage:** t!feed TikTok
 * Hashtag Lookup - **Usage:** t!hash TikTok
+* Trending - **Usage:** t!Trending
 * Help - **Usage:** t!help
 
 ## Changelog
-* **1.1 (Current)** - Added Hashtag lookup - 26th November 2020
+* **1.2 (Current)** - Added Trending + Feed Commands - 20th Febuary 2021
+* **1.1** - Added Hashtag lookup - 26th November 2020
 * **1.0** - Initial Release - 22nd November 2020
 
 ## Preview
