@@ -15,6 +15,7 @@ exports.run = (client, message, args) =>{
         .setTitle(`User Feed - ${args[0]}`)
         .setURL(posts.collector[0].webVideoUrl)
         .setThumbnail(posts.collector[0].authorMeta.avatar)
+        .setImage(posts.collector[0].covers.origin)
         .setDescription(`Latest post from ${args[0]}`)
         if(posts.collector[0].text){
             feed.addField('Post Description',`${posts.collector[0].text}`)
