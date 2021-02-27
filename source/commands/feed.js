@@ -12,8 +12,13 @@ exports.run = (client, message, args) =>{
         });
         const feed = new discord.MessageEmbed()
         .setColor('#b434eb')
-        .setTitle(`User Feed - ${args[0]}`)
-        .setURL(posts.collector[0].webVideoUrl)
+        if(posts.collector[0].authorMeta.verified == true){
+            feed.setTitle(`User Info - @${posts.collector[0].authorMeta.name} <:Ver:750173291075076197>`)
+        }
+        else{
+            feed.setTitle(`User Info - @${posts.collector[0].authorMeta.name}`)
+        }
+        feed.setURL(posts.collector[0].webVideoUrl)
         .setThumbnail(posts.collector[0].authorMeta.avatar)
         .setImage(posts.collector[0].covers.origin)
         .setDescription(`Latest post from ${args[0]}`)
