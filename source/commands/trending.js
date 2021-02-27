@@ -19,8 +19,13 @@ exports.run = (client, message, args) =>{
           }
         var random_Number = rn(options)
         const trending = new discord.MessageEmbed()
-        .setTitle(`Trending Video by - @${posts.collector[random_Number].authorMeta.name}`)
-        .setDescription('Currently trending video.')
+        if(posts.collector[0].authorMeta.verified == true){
+            trending.setTitle(`User Info - @${posts.collector[0].authorMeta.name} <:Ver:750173291075076197>`)
+        }
+        else{
+            trending.setTitle(`User Info - @${posts.collector[0].authorMeta.name}`)
+        }
+        trending.setDescription('Currently trending video.')
         .setURL(posts.collector[random_Number].webVideoUrl)
         .setThumbnail(posts.collector[random_Number].authorMeta.avatar)
         if(posts.collector[random_Number].text){
