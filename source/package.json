@@ -17,6 +17,7 @@
     "observer": "0.0.2",
     "random-number": "0.0.9",
     "tiktok-scraper": "^1.4.9",
-    "tiktok-search": "^2.0.3"
+    "tiktok-search": "^2.0.3",
+    "topgg-autoposter": "^1.1.6"
   }
 }
