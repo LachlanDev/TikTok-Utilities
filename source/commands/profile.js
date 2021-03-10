@@ -36,8 +36,8 @@ exports.run = (client, message, args) =>{
             const embederr = new discord.MessageEmbed()
             .setColor('#FF0000')
             .setTitle(`Error`)
-            .addField("An error has occured", error)
-            .setFooter("TikTok Utilities by PapaSnags#1555", "https://cdn.discordapp.com/app-icons/779968259671457792/184465ca744886f62b39f100b52de9a0.png?")
+            .addField("An error has occured", "TikTok Utilities is currently encountering issues, please wait for them to be fixed or contact PapaSnags!")
+            .setFooter("TikTok Utilities by PapaSnags#8014", "https://cdn.discordapp.com/app-icons/779968259671457792/184465ca744886f62b39f100b52de9a0.png?")
             message.channel.send({embed: embederr })
         }
     })();
