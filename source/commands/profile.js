@@ -28,7 +28,7 @@ exports.run = (client, message, args) =>{
             userbe.addField("Followers", number.formatNumber(`${user.stats.followerCount}`),true)
             .addField("Following", number.formatNumber(`${user.stats.followingCount}`),true)
             .addField("Hearts", number.formatNumber(`${user.stats.heartCount}`),true)
-            .setFooter("TikTok Utilities by PapaSnags#8014", "https://cdn.discordapp.com/app-icons/779968259671457792/184465ca744886f62b39f100b52de9a0.png?")
+            .setFooter("TikTok Utilities by LachlanDev#8014", "https://cdn.discordapp.com/app-icons/779968259671457792/184465ca744886f62b39f100b52de9a0.png?")
             message.channel.send({embed: userbe })
         } 
         catch (error) 
@@ -36,8 +36,8 @@ exports.run = (client, message, args) =>{
             const embederr = new discord.MessageEmbed()
             .setColor('#FF0000')
             .setTitle(`Error`)
-            .addField("An error has occured", "TikTok Utilities is currently encountering issues, please wait for them to be fixed or contact PapaSnags!")
-            .setFooter("TikTok Utilities by PapaSnags#8014", "https://cdn.discordapp.com/app-icons/779968259671457792/184465ca744886f62b39f100b52de9a0.png?")
+            .addField("An error has occured", "TikTok Utilities is currently encountering issues, please wait for them to be fixed or contact LachlanDev#8014")
+            .setFooter("TikTok Utilities by LachlanDev#8014", "https://cdn.discordapp.com/app-icons/779968259671457792/184465ca744886f62b39f100b52de9a0.png?")
             message.channel.send({embed: embederr })
         }
     })();
