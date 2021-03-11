@@ -6,8 +6,8 @@
  - Discord BOT</p>
 <h1>
 <p align="center">
-    <a href="https://github.com/papasnags/TikTok-Utilities/releases">
-        <img alt="GitHub release" src="https://img.shields.io/github/release/PapaSnags/TikTok-Utilities.svg">
+    <a href="https://github.com/LachlanDev/TikTok-Utilities/releases">
+        <img alt="GitHub release" src="https://img.shields.io/github/release/LachlanDev/TikTok-Utilities.svg">
     </a>
 </p>
 
@@ -37,8 +37,8 @@ If you would like to contribute to the project please open a PR (Pull Request) c
 If you have any issues feel free to open an issue or join the [Discord Server.](https://discord.com/invite/w7B5nKB)
 
 ## Extra
-__Created by PapaSnags#8014__
-* [Website](https://papa-snags.com/projects/PLUG/)
-* [Twitter](https://twitter.com/PapaSnags)
+__Created by LachlanDev#8014__
+* [Website](https://lachlan-dev.com)
+* [Twitter](https://twitter.com/LachlanDev)
 * [Discord Server](https://discord.com/invite/w7B5nKB)
 </br>
