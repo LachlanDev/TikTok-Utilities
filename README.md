@@ -12,7 +12,7 @@
 </p>
 
 # About
-An Open Source Discord BOT that gets in depth information about users on TikTok. [Discord BOT Invite Link.](https://discord.com/oauth2/authorize?client_id=779968259671457792&scope=bot&permissions=93248)
+An Open Source Discord BOT that gets in depth information about users on TikTok. 
 
 ## Commands 
 * Profile Lookup - **Usage:** t!profile TikTok
@@ -34,11 +34,10 @@ An Open Source Discord BOT that gets in depth information about users on TikTok.
 If you would like to contribute to the project please open a PR (Pull Request) clearly showing your changes.
 
 ## Issues
-If you have any issues feel free to open an issue or join the [Discord Server.](https://discord.com/invite/w7B5nKB)
+If you have any issues feel free to open an issue or join the [Discord Server.](https://discord.com/invite/TkZzRBaxP9)
 
 ## Extra
 __Created by LachlanDev#8014__
-* [Website](https://lachlan-dev.com)
 * [Twitter](https://twitter.com/LachlanDev)
-* [Discord Server](https://discord.com/invite/w7B5nKB)
+* [Discord Server](https://discord.com/invite/TkZzRBaxP9)
 </br>
